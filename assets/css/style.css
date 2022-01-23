@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --primary_color:#15a4fa;
+    --secondary_color:#2d3950;
+    --secondary_color_2:#999999;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Oswald', sans-serif;
+}
+
+.container{ 
+    padding: 0 80px;
+}
+/* navigation part start */
+.nav_bar{
+    padding: 15px 0;
+}
+.logo img{
+    width: 34px;
+    height: 37px;
+}
+.logo h4{
+    font-size: 30px;
+    padding-left: 15px;
+    color: var(--secondary_color);
+    font-weight: 600;
+}
+.menu{
+    padding: 0;
+}
+.menu li {
+    padding-left: 30px;
+}
+.menu li:nth-child(1){
+    padding-left: 0;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--secondary_color);
+}
+/* navigation part end */
+
+/* slider part start */
+.slider{
+    background: url(../img/slider_img.jpg);
+    padding: 170px 0 250px;
+}
+.slider_con h1{
+    text-align: center;
+    font-size: 120px;
+    color: #fff;
+    font-family: lato ;
+}
+.down_head{
+    height: 2px;
+    width: 600px;
+    background: var(--primary_color);
+    margin: auto;
+}
+.slider_con p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.slider_con .btn{
+    border: 2px solid var(--primary_color);
+    text-align: center;
+    margin-top: 60px;
+}
+.slider_con .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.slider_con .btn:hover{
+    border: 2px solid var(--primary_color);
+    background: var(--primary_color);
+}
+/* slide part end */
+
+/* design part start */
+.design_part{
+    padding: 80px 0;
+    background: #f6f6f6;
+}
+.design_part h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: var(--secondary_color);
+}
+.design_part p{
+    font-size: 20px;
+    color: var(--secondary_color_2);
+}
+/* design part end */
+
+/* feature part start */
+.feature_part{
+padding: 60px 0;
+}
+.feature_con{
+    padding-top: 30px;
+}
+.feature_con h5{
+    font-size: 22px;
+    color: var(--secondary_color);
+}
+.feature_con p{
+    font-size: 15px;
+    color: var(--secondary_color_2);
+}
+/* feature part end */
+
+/* portFolio part start */
+.portfolio_part{
+    background: #f9f9f9;
+    padding: 80px 0 100px;
+}
+.port_head h2{
+    font-size: 40px;
+    color: var(--secondary_color);
+    font-family: sans-serif;
+}
+.port_head p{
+    font-size: 15px;
+    color: var(--secondary_color_2);
+    font-family: sans-serif;
+}
+
+.port_img{
+    position: relative;
+    margin-top: 20px;
+}
+.port_img_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    background: rgba(32,159,239, 0.7);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: ease-in .3s;
+}  
+.port_img_overlay i{
+    color: #fff;
+    padding: 12px;
+    border: 1px solid #fff;
+    margin: 5px;
+}
+.port_img_overlay:hover{
+    opacity: 1;
+}
+/* portfollio part end */
+
+/* contract part start */
+.contract_part{
+    background: url(../img/contract_bg_img.jpg);
+    /* padding: 70px 0 100px; */
+}
+.contract_overlay{
+    background: rgba(44,55,76,.7);
+    padding: 70px 0 100px;
+}
+.cont_head h3{
+    font-size: 41px;
+    color: #fff;
+}
+.cont_head p{
+    font-size: 15px;
+    color: var(--secondary_color_2);
+}
+.name , .email{
+    width: 550px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: var(--secondary_color_2);
+    border: 1px solid var(--secondary_color_2);
+    background: transparent;
+}
+.message{
+    width: 550px;
+    height: 160px;
+    border-radius: 10px;
+    color: var(--secondary_color_2);
+    border: 1px solid var(--secondary_color_2);
+    margin-bottom: 20px;
+    background: transparent;
+}
+form{
+    color: var(--secondary_color_2);
+    font-size: 15px;
+}
+.checkbox{
+    background: #99a0a9;
+    margin-right: 15px;
+}
+.sent{
+    width: 140px;
+    height: 45px;
+    margin-left: 235px;
+    background: transparent;
+    border: 1px solid var(--primary_color);
+    color: #fff;
+}
+.sent:hover{
+    background: var(--primary_color);}
+/* contract part end */
+
+/* footer part start */
+.footer_part{
+    padding: 25px 0;
+}
+.footer_con p{
+    color: var(--secondary_color_2);
+}
+.footer_icon > a > i{
+    padding: 10px 15px;
+    color: #fff;
+    background: var(--primary_color);
+    margin-right: 5px ;
+}
+.footer_icon{
+    right: 0;
+}
+
+/* footert part end */
+
+
